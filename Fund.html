@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalavai Rockers Trip Fund</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Kalavai Rockers Trip Fund Management</h1>
+    
+    <div id="admin-section">
+        <h2>Admin Panel - Add Member</h2>
+        <input type="text" id="member-name" placeholder="Member Name">
+        <input type="number" id="member-savings" placeholder="Savings (₹)">
+        <button onclick="addMember()">Add Member</button>
+    </div>
+
+    <h2>Members Savings</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Savings (₹)</th>
+            </tr>
+        </thead>
+        <tbody id="members-list"></tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
